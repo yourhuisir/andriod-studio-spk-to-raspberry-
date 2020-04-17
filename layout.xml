@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+
+    >
+
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图像"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="平躺"
+
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="起身"
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="左翻"
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"/>
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="右翻"
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:background="#FF03A9F4"
+        android:textColor="#FFFDFDFE"/>
+</LinearLayout>
